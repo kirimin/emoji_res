@@ -7,7 +7,6 @@ import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
 import android.support.v4.app.JobIntentService
-import android.util.Log
 
 
 class StickerIndexingService : JobIntentService() {
@@ -162,7 +161,6 @@ class StickerIndexingService : JobIntentService() {
         sb.append(context.resources.getResourceTypeName(drawableResId))
         sb.append("/")
         sb.append(context.resources.getResourceEntryName(drawableResId))
-        Log.d("test-url", Uri.parse(sb.toString()).toString())
         return Uri.parse(sb.toString()).toString()
     }
 }
