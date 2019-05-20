@@ -151,9 +151,6 @@ class StickerIndexingService : JobIntentService() {
                 )
                 .build()
         )
-        update.addOnCompleteListener {
-            it.exception?.printStackTrace()
-        }
     }
 
     private fun convertUrlFromDrawableResId(context: Context, drawableResId: Int): String {
