@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1081171000139",
+    "firebase_url": "https://emojires.firebaseio.com",
+    "project_id": "emojires",
+    "storage_bucket": "emojires.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081171000139:android:a0703afe34c205f2",
+        "android_client_info": {
+          "package_name": "kirimin.me.emojires"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081171000139-teut4t7kd3s67ga9290m54q7g3j9rff1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kirimin.me.emojires",
+            "certificate_hash": "0a31894a5e564e5fa804eb2f33cc4db0de9a8c81"
+          }
+        },
+        {
+          "client_id": "1081171000139-puqkva7fb5floufidng6v08m9pjhr9kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAArt2n4RNpC1r3nzVmZQhFLETDMKyHKP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081171000139-puqkva7fb5floufidng6v08m9pjhr9kj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

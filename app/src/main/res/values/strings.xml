@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_title">Emojiレス</string>
+    <string name="about_how_to_use">このアプリを使うためには端末のキーボードをGboardに設定する必要があります。Gboardの絵文字/ステッカー欄から絵文字を選んで使ってね。</string>
+    <string name="about_develop">開発：Kirimint, @kirimin</string>
+    <string name="about_develop_url" translatable="false">http://kirimin.me</string>
+    <string name="about_other_app">他にもいろいろなアプリを公開しています。</string>
+    <string name="about_other_app_url" translatable="false">https://play.google.com/store/apps/developer?id=kirimin</string>
+    <string name="about_review">レビューを頂けると開発の励みになります</string>
+    <string name="about_review_url" translatable="false">https://play.google.com/store/apps/details?id=me.kirimin.emojires</string>
+</resources>

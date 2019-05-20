@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_develop">Developer : Kirimint, @kirimin</string>
+    <string name="about_how_to_use">This app using on Gboard. You should Install Gboard to use this app.</string>
+    <string name="about_other_app">Ohter my apps.</string>
+    <string name="about_review">Could you please review this app?</string>
+    <string name="app_title">Japanese Characters Res</string>
+</resources>
