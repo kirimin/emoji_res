@@ -27,7 +27,7 @@ class StickerIndexingService : JobIntentService() {
     }
 
     override fun onHandleWork(intent: Intent) {
-        val update = FirebaseAppIndex.getInstance().update(
+        FirebaseAppIndex.getInstance().update(
             Indexable.Builder(STICKER_PACK)
                 .setName(STICKER_PACK_NAME)
                 .setImage(convertUrlFromDrawableResId(applicationContext, R.drawable.teetee))
@@ -161,6 +161,6 @@ class StickerIndexingService : JobIntentService() {
         sb.append(context.resources.getResourceTypeName(drawableResId))
         sb.append("/")
         sb.append(context.resources.getResourceEntryName(drawableResId))
-        return Uri.parse(sb.toString()).toString()
+        return sb.toString()
     }
 }
